@@ -2,9 +2,9 @@ OBJ_PATH = obj
 BIN_PATH = bin
 DIST_PATH = dist
 EXE_NAME = gpuPlotGenerator.exe
-PLATFORM = 32
-OPENCL_INCLUDE = ../_opencl/include
-OPENCL_LIB = ../_opencl/lib/win/x86
+PLATFORM = 64
+OPENCL_INCLUDE = C:\AMD_APP_SDK\2.9-1\include
+OPENCL_LIB = C:\AMD_APP_SDK\2.9-1\lib\x86_64
 
 CC = g++
 CC_FLAGS = -W -Wall -std=c++11 -O3 -I$(OPENCL_INCLUDE) -m$(PLATFORM)
